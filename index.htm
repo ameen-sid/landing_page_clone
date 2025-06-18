@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Clone</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header class="w-screen">
+
+        <!-- Navigation section -->
+        <nav class="w-full flex justify-around items-center h-[8vh]">
+            <div>
+                <span class="font-black text-xl">HOME</span>
+                <span class="font-black text-lime-500 text-xl">INSURANCE</span>
+            </div>
+            <div>
+                <ul class="flex gap-7 font-semibold">
+                    <li class="text-lime-500 cursor-pointer hover:font-bold">HOME</li>
+                    <li class="hover:font-bold cursor-pointer"><a href="#about">ABOUT</a></li>
+                    <li class="hover:font-bold cursor-pointer"><a href="#services">SERVICES</a></li>
+                    <li class="hover:font-bold cursor-pointer"><a href="#team">TEAM</a></li>
+                    <li class="hover:font-bold cursor-pointer"><a href="#blog">BLOG</a></li>
+                    <li class="hover:font-bold cursor-pointer"><a href="#contact">CONTACT</a></li>
+                    <li class="hover:font-bold cursor-pointer">ICON</li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Banner section -->
+        <section class="w-full h-[80vh] text-white bg-[url('firstBackground.jpeg')] bg-cover">
+            <div class="w-full h-full flex" style="background-color: rgba(0, 0, 0, 0.5);">
+                
+                <!-- Text section -->
+                <div class="w-[70vw] h-full p-44">
+                    <div class="flex">
+                        <span class="text-xl">We Are</span>
+                        <!-- <hr class="w-[50px] h-[10px]"> -->
+                    </div>
+                    <div class="my-4">
+                        <span class="font-semibold text-7xl">GET</span>
+                        &nbsp;
+                        <span class="font-semibold text-lime-500 text-7xl">INSURED</span>
+                    </div>
+                    <p>Nobody's more committed to connecting with you with the exceptional top talents with the right fit</p>
+                    <p>for your bussiness than us. More committed to connecting you with.</p>
+                </div>
+
+                <!-- Form Section -->
+                <div class="w-[30vw] h-full p-12">
+                    <form class="w-full h-full p-6 bg-blue-950">
+                        <legend class="text-center font-semibold text-4xl">GET A QUOTE</legend>
+                        <!-- <span class="text-xs">Sed ut perspiciatis unde omnis iste natus</span>
+                        <span class="text-xs">earchitecto beatae vitaee.</span> -->
+                        <pre>
+
+
+<label>Your name <sup>*</sup></label>   <input type="text" class="rounded-md h-[30px]">
+
+<label>Mobile <sup>*</sup></label>      <input type="number" class="rounded-md h-[30px]">
+
+<label>Email <sup>*</sup></label>       <input type="email" class="rounded-md h-[30px]">
+
+<label>City</label>          <input type="text" class="rounded-md h-[30px]">
+
+<label>Zip code</label>      <input type="number" class="rounded-md h-[30px]">
+
+
+                        <input type="submit" value="GET QUOTE" class="border border-lime-500 p-[6px] rounded-md bg-lime-500 cursor-pointer">
+
+                        </pre>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main section -->
+    <main class="w-screen">
+
+        <!-- Know about us section -->
+        <section class="w-full h-[60vh] flex flex-col justify-center items-center gap-4 p-48 text-center" id="about">
+            <h4 class="text-lime-500 text-center text-4xl font-semibold">KNOW ABOUT US</h4>
+            <hr style="border: 3px solid black; width: 100px;">
+            <p>Out Theme is a very slick and clean e-commerce template with endless possibilities. Creating an awesome website with this theme. We posses within us two minds. So far I have written only of the consious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconcious. Our subconsious mind contains such power and complexity that is literally staggers the imagination.</p>
+        </section>
+
+        <!-- Happy clients section -->
+        <section class="w-full h-[60vh] text-white text-center bg-[url('secondBackground.jpg')] bg-cover contrast-100" id="services">
+            <div class="w-full h-full flex flex-col justify-center items-center gap-4 p-48" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h4 class="text-center text-4xl font-semibold">HAPPY CLIENTS</h4>
+                <hr style="border: 3px solid rgb(132 204 22); width: 100px;">
+                <p>The excellent theme. It have many useful features that can be use for any kind of bussiness. The support is just amazing and design is very minimal and modern. I will rate 5 stars.</p>
+                <span>DONALD TRUMP/CEO OF TRUMP ORGANISATION</span>
+            </div>
+        </section>
+
+        <!-- Our best team section -->
+        <section class="w-full h-[90vh] text-center flex flex-col justify-center items-center gap-4" id="team">
+            <h4 class="text-4xl font-semibold">OUR BEST TEAM</h4>
+            <span class="text-l text-gray-500">Creative Nerds</span>
+            <hr style="border: 3px solid rgb(132 204 22); width: 100px;">
+            <div class="flex justify-around w-[80vw] h-[60vh]">
+                <div class="w-[30%] h-[90%] bg-white">
+                    <img src="first.jpg" alt="" class="w-[100%] h-[100%]">
+                    <p class="font-black text-lime-500 text-l my-1">JONATHAN DOE</p>
+                    <span class="text-sm text-gray-500">Chief Executive</span>
+                </div>
+                <div class="w-[30%] h-[90%] bg-white">
+                    <img src="second.jpg" alt="" class="w-[100%] h-[100%]">
+                    <p class="font-black text-lime-500 text-l my-1">JAMES TAYLOR</p>
+                    <span class="text-sm text-gray-500">Salesman</span>
+                </div>
+                <div class="w-[30%] h-[90%] bg-white">
+                    <img src="third.jpg" alt="" class="w-[100%] h-[100%]">
+                    <p class="font-black text-lime-500 text-l my-1">LISA TRUMP</p>
+                    <span class="text-sm text-gray-500">Project Manager</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscribe section -->
+        <section class="w-full h-[15vh] my-16 flex justify-around items-center bg-gradient-to-r from-pink-500 to-purple-500">
+            <div>
+                <span class="text-l">Subscribe our newsletter and get updates</span>
+                <p class="text-xl font-semibold">ARE YOU READY TO ENJOY? SUBSCRIBE TO OUR NEWSLETTER</p>
+            </div>
+            <div>
+                <button class="bg-lime-500 text-white text-sm p-4 rounded-md">CALL US: <span class="font-black text-xl">456-789-5690</span></button>
+            </div>
+        </section>
+
+        <!-- Our works section -->
+        <section class="w-full h-screen my-16 flex flex-col justify-around items-center" id="blog">
+            <h4 class="text-lime-500 text-center text-4xl font-semibold">OUR WORKS</h4>
+            <hr style="border: 3px solid rgb(15 23 42); width: 100px;">
+            <div class="w-full h-[60%] flex">
+                <img src="one.jpg" alt="" class="w-[25%]">
+                <img src="two.jpg" alt="" class="w-[25%]">
+                <img src="three.jpg" alt="" class="w-[25%]">
+                <img src="four.jpg" alt="" class="w-[25%]">
+            </div>
+            <button class="rounded-md text-white bg-slate-900 py-2 px-4">LOAD MORE</button>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="w-screen">
+
+        <!-- First section -->
+        <section class="w-full h-[60vh] bg-[url('secondBackground.jpg')] bg-cover" id="contact">
+            <div class="w-full h-[100%] p-28 flex flex-col gap-8" style="background-color: rgba(132, 204, 22, 0.8);">
+                <div class="flex justify-around text-slate-900">
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">Mobile Friendly</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">Unlimited Colors</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">Many Portfolio Types</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <div class="flex justify-around text-slate-900">
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">Drag & Drop Builder</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">2 Minutes to Install</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="w-[30%]">
+                        <h6 class="text-xl font-bold py-1">Extended Documentation</h6>
+                        <p class="text-xs">Gaze is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second section -->
+        <section class="w-full bg-slate-900 text-white p-14 flex justify-center items-center gap-4">
+            <div class="w-[25%] p-2">
+                <h5 class="font-bold text-lime-500 text-xl">ABOUT US</h5>
+                <p class="text-xs my-8">This is Photoshop's version of lorem ipsum. <br> Proin gravida nibh vel velit auctor aliquet. <br>Aenean sollicitudin, lorem quis bibendum auctor, <br>nisi elit consequet ipsum, nec segittis sem <br>nibh it elit. Duis sed odio sit amet nibh vulputate<br> cursus a sit.</p>
+            </div>
+            <div class="w-[25%] p-2">
+                <h5 class="font-bold text-lime-500 text-xl">GET IN TOUCH</h5>
+                <p class="text-xs my-8">Phillipines, PO Box 6200 <br>Talye st. 65, Gaze inc. <br><br> Phone: +63 918 4084 694 <br> Email: info@domainname.com <br> Fax: +63 934 2510 593</p>
+            </div>
+            <div class="w-[25%] p-2">
+                <h5 class="font-bold text-lime-500 text-xl">LATEST POSTS</h5>
+                <p class="text-xs my-8">Gaze is a simple and flexible <br> January 12, 2015 <br><br> Multi-purpose Wordpress theme <br> January 10, 2015 <br><br> Tons of Shortcodes and features <br> January 9, 2015</p>
+            </div>
+            <div class="w-[25%] p-2">
+                <h5 class="font-bold text-lime-500 text-xl">USEFUL LINKS</h5>
+                <p class="text-xs my-8">Gaze is a simple and flexible <br><br> Multi-purpose Wordpress theme <br><br> Tons of Shortcodes includes <br><br> Fully Responsive theme</nr></p>
+            </div>
+        </section>
+
+        <!-- Third section -->
+        <section class="w-full h-[50px] flex justify-around items-center bg-slate-950 text-white">
+            <span>2018 Home Insurance</span>
+            <div>
+                Icons
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
