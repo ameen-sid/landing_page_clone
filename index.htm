@@ -9,7 +9,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-
     <!-- Header section -->
     <header class="w-screen">
 
@@ -33,9 +32,8 @@
         </nav>
 
         <!-- Banner section -->
-        <section class="w-full h-[80vh] text-white bg-[url('firstBackground.jpeg')] bg-cover">
+        <section class="w-full h-[80vh] text-white bg-[url('./assets/firstBackground.jpeg')] bg-cover">
             <div class="w-full h-full flex" style="background-color: rgba(0, 0, 0, 0.5);">
-                
                 <!-- Text section -->
                 <div class="w-[70vw] h-full p-44">
                     <div class="flex">
@@ -78,11 +76,11 @@
                 </div>
             </div>
         </section>
+
     </header>
 
     <!-- Main section -->
     <main class="w-screen">
-
         <!-- Know about us section -->
         <section class="w-full h-[60vh] flex flex-col justify-center items-center gap-4 p-48 text-center" id="about">
             <h4 class="text-lime-500 text-center text-4xl font-semibold">KNOW ABOUT US</h4>
@@ -91,7 +89,7 @@
         </section>
 
         <!-- Happy clients section -->
-        <section class="w-full h-[60vh] text-white text-center bg-[url('secondBackground.jpg')] bg-cover contrast-100" id="services">
+        <section class="w-full h-[60vh] text-white text-center bg-[url('./assets/secondBackground.jpg')] bg-cover contrast-100" id="services">
             <div class="w-full h-full flex flex-col justify-center items-center gap-4 p-48" style="background-color: rgba(0, 0, 0, 0.5);">
                 <h4 class="text-center text-4xl font-semibold">HAPPY CLIENTS</h4>
                 <hr style="border: 3px solid rgb(132 204 22); width: 100px;">
@@ -105,19 +103,20 @@
             <h4 class="text-4xl font-semibold">OUR BEST TEAM</h4>
             <span class="text-l text-gray-500">Creative Nerds</span>
             <hr style="border: 3px solid rgb(132 204 22); width: 100px;">
+            
             <div class="flex justify-around w-[80vw] h-[60vh]">
                 <div class="w-[30%] h-[90%] bg-white">
-                    <img src="first.jpg" alt="" class="w-[100%] h-[100%]">
+                    <img src="./assets/first.jpg" alt="" class="w-[100%] h-[100%]">
                     <p class="font-black text-lime-500 text-l my-1">JONATHAN DOE</p>
                     <span class="text-sm text-gray-500">Chief Executive</span>
                 </div>
                 <div class="w-[30%] h-[90%] bg-white">
-                    <img src="second.jpg" alt="" class="w-[100%] h-[100%]">
+                    <img src="./assets/second.jpg" alt="" class="w-[100%] h-[100%]">
                     <p class="font-black text-lime-500 text-l my-1">JAMES TAYLOR</p>
                     <span class="text-sm text-gray-500">Salesman</span>
                 </div>
                 <div class="w-[30%] h-[90%] bg-white">
-                    <img src="third.jpg" alt="" class="w-[100%] h-[100%]">
+                    <img src="./assets/third.jpg" alt="" class="w-[100%] h-[100%]">
                     <p class="font-black text-lime-500 text-l my-1">LISA TRUMP</p>
                     <span class="text-sm text-gray-500">Project Manager</span>
                 </div>
@@ -140,10 +139,10 @@
             <h4 class="text-lime-500 text-center text-4xl font-semibold">OUR WORKS</h4>
             <hr style="border: 3px solid rgb(15 23 42); width: 100px;">
             <div class="w-full h-[60%] flex">
-                <img src="one.jpg" alt="" class="w-[25%]">
-                <img src="two.jpg" alt="" class="w-[25%]">
-                <img src="three.jpg" alt="" class="w-[25%]">
-                <img src="four.jpg" alt="" class="w-[25%]">
+                <img src="./assets/one.jpg" alt="" class="w-[25%]">
+                <img src="./assets/two.jpg" alt="" class="w-[25%]">
+                <img src="./assets/three.jpg" alt="" class="w-[25%]">
+                <img src="./assets/four.jpg" alt="" class="w-[25%]">
             </div>
             <button class="rounded-md text-white bg-slate-900 py-2 px-4">LOAD MORE</button>
         </section>
@@ -151,7 +150,6 @@
 
     <!-- Footer section -->
     <footer class="w-screen">
-
         <!-- First section -->
         <section class="w-full h-[60vh] bg-[url('secondBackground.jpg')] bg-cover" id="contact">
             <div class="w-full h-[100%] p-28 flex flex-col gap-8" style="background-color: rgba(132, 204, 22, 0.8);">
@@ -209,9 +207,7 @@
         <!-- Third section -->
         <section class="w-full h-[50px] flex justify-around items-center bg-slate-950 text-white">
             <span>2018 Home Insurance</span>
-            <div>
-                Icons
-            </div>
+            <div>Icons</div>
         </section>
     </footer>
 </body>
